@@ -7,8 +7,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.5.3
-      - uses: actions/setup-python@v2.4.0
+      - uses: actions/checkout@v2.5.4
+      - uses: actions/setup-python@v2.2.2
         with:
           python-version: 3.9
       - run: pip install mkdocs-material
