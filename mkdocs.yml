@@ -1,0 +1,29 @@
+site_name: MkDocs Test
+theme:
+  name: material
+  features:
+    - navigation.sections
+  language: tr
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Karanlık moda geç
+    primary: teal
+    accent: purple
+  - scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Aydınlık moda geç
+      primary: teal
+      accent: lime
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/berkantsahn
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/berkantsahn
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/berkantsahn
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/berkantsahn
