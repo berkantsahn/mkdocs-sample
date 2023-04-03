@@ -5,30 +5,31 @@ repo_name: berkantsahn/mkdocs-test
 repo_url: https://github.com/berkantsahn/mkdocs-test
 theme:
   name: material
-  icon:
-    repo: fontawesome/brands/git-alt
+  palette:
+  - media: '(prefers-color-scheme: dark)'
+    scheme: default
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb-outline
+      name: Karanlık moda geç
+  - media: '(prefers-color-scheme: light)'
+    scheme: slate
+    primary: teal
+    accent: amber
+    toggle:
+      icon: material/lightbulb
+      name: Aydınlık moda geç
   features:
+    - search.suggest
+    - search.highlight
     - navigation.sections
     - content.code.copy
+  icon:
+    repo: fontawesome/brands/git-alt
   language: tr
-nav: 
-- mkdocs-test: index.md
-- Languages:
-  - tr: /
-  - en: /en/
-  palette:
-  - scheme: default
-    toggle:
-      icon: material/toggle-switch-off-outline
-      name: Karanlık moda geç
-    primary: teal
-    accent: purple
-  - scheme: slate
-    toggle:
-      icon: material/toggle-switch
-      name: Aydınlık moda geç
-      primary: teal
-      accent: lime
+plugins:
+  - search
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -39,6 +40,11 @@ extra:
       link: https://linkedin.com/in/berkantsahn
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/berkantsahn
+  alternate:
+  - link: /tr/
+    name: tr - Türkçe
+  - link: /en/
+    name: en - English
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
@@ -55,7 +61,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
-plugins:
-  - search
+nav: 
+- mkdocs-test: index.md
+- Languages:
+  - tr: /tr/
+  - en: /en/
 copyright: |
   &copy; 2023 <a href="https://github.com/berkantsahn"  target="_blank" rel="noopener">Berkant Şahin</a>
