@@ -11,6 +11,11 @@ theme:
     - navigation.sections
     - content.code.copy
   language: tr
+nav: 
+- mkdocs-test: index.md
+- Languages:
+  - tr: /
+  - en: /en/
   palette:
   - scheme: default
     toggle:
