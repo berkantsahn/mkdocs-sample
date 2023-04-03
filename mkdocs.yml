@@ -41,9 +41,9 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/berkantsahn
   alternate:
-  - link: /tr/
+  - link: /tr/index-tr
     name: tr - Türkçe
-  - link: /en/
+  - link: /en/index-en
     name: en - English
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
@@ -61,10 +61,5 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
-nav: 
-- mkdocs-test: index.md
-- Languages:
-  - tr: /tr/
-  - en: /en/
 copyright: |
   &copy; 2023 <a href="https://github.com/berkantsahn"  target="_blank" rel="noopener">Berkant Şahin</a>
