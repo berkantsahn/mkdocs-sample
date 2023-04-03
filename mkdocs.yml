@@ -41,9 +41,9 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/berkantsahn
   alternate:
-  - link: /tr/index-tr
+  - link: /mkdocs-test/tr/index-tr
     name: tr - Türkçe
-  - link: /en/index-en
+  - link: /mkdocs-test/en/index-en
     name: en - English
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
