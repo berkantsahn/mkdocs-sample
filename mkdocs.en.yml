@@ -50,12 +50,12 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/berkantsahn
   alternate:
-  - name: tr - Türkçe
-    link: https://berkantsahn.github.io/mkdocs-test/tr/
-    lang: tr
-  - name: en - English 
-    link: https://berkantsahn.github.io/mkdocs-test/en/
-    lang: en
+    - name: tr - Türkçe
+      link: https://berkantsahn.github.io/mkdocs-test/tr/index-tr/
+      lang: tr
+    - name: en - English 
+      link: https://berkantsahn.github.io/mkdocs-test/en/index-en/
+      lang: en
     
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
