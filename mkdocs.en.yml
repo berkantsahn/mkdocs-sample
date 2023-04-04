@@ -1,11 +1,13 @@
 site_name: MkDocs Test
 site_author: Berkant Şahin
-
+docs_dir: 'docs/en/'
+site_dir: 'site/en/'
 repo_name: berkantsahn/mkdocs-test
 repo_url: https://github.com/berkantsahn/mkdocs-test
 theme:
   name: material
   direction: ltr
+  language: en
   palette:
   - media: '(prefers-color-scheme: dark)'
     scheme: default
@@ -13,14 +15,14 @@ theme:
     accent: amber
     toggle:
       icon: material/lightbulb
-      name: Karanlık moda geç
+      name: Switch to dark mode
   - media: '(prefers-color-scheme: light)'
     scheme: slate
     primary: teal
     accent: amber
     toggle:
       icon: material/lightbulb-outline
-      name: Aydınlık moda geç
+      name: Switch to light mode
   features:
     - search.suggest
     - search.highlight
@@ -34,10 +36,9 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/git-alt
-  language: tr
 plugins:
   - search:
-      lang: tr
+      lang: en
 extra:
   social:
     - icon: fontawesome/brands/github-alt

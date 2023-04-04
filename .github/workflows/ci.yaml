@@ -9,6 +9,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Build TR docs
+        uses: ./
+        with:
+          entrypoint: mkdocs
+          args: build --config-file=mkdocs.tr.yml
+
+      - name: Build EN docs
+        uses: ./
+        with:
+          entrypoint: mkdocs
+          args: build --config-file=mkdocs.en.yml
+          
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:

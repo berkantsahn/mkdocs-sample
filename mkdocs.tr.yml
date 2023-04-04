@@ -1,11 +1,13 @@
 site_name: MkDocs Test
 site_author: Berkant Şahin
-
+docs_dir: 'docs/tr/'
+site_dir: 'site/tr/'
 repo_name: berkantsahn/mkdocs-test
 repo_url: https://github.com/berkantsahn/mkdocs-test
 theme:
   name: material
   direction: ltr
+  language: tr
   palette:
   - media: '(prefers-color-scheme: dark)'
     scheme: default
@@ -34,7 +36,6 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/git-alt
-  language: tr
 plugins:
   - search:
       lang: tr
