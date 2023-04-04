@@ -5,6 +5,7 @@ repo_name: berkantsahn/mkdocs-test
 repo_url: https://github.com/berkantsahn/mkdocs-test
 theme:
   name: material
+  direction: ltr
   palette:
   - media: '(prefers-color-scheme: dark)'
     scheme: default
@@ -23,7 +24,10 @@ theme:
   features:
     - search.suggest
     - search.highlight
-    - navigation.sections
+  #  - navigation.indexes
+  #  - navigation.sections
+    - navigation.tabs
+  #  - navigation.expand
     - content.code.copy
   icon:
     repo: fontawesome/brands/git-alt
@@ -41,10 +45,13 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/berkantsahn
   alternate:
-  - link: /mkdocs-test/tr/index-tr
-    name: tr - Türkçe
-  - link: /mkdocs-test/en/index-en
-    name: en - English
+  - name: tr - Türkçe
+    link: /mkdocs-test/tr/index-tr
+    lang: tr
+  - name: en - English 
+    link: /mkdocs-test/en/index-en
+    lang: en
+    
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
