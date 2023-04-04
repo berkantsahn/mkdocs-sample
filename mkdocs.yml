@@ -27,6 +27,9 @@ theme:
   #  - navigation.indexes
   #  - navigation.sections
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
   #  - navigation.expand
     - content.code.copy
   icon:
