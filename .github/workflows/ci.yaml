@@ -13,14 +13,14 @@ jobs:
         uses: ./
         with:
           entrypoint: mkdocs
-          args: build --config-file=mkdocs.tr.yml
+          args: mkdocs build -f mkdocs.tr.yml
 
       - name: Build EN docs
         uses: ./
         with:
           entrypoint: mkdocs
-          args: build --config-file=mkdocs.en.yml
-          
+          args: mkdocs build -f mkdocs.en.yml
+
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
