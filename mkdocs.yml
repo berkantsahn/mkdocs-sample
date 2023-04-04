@@ -49,10 +49,10 @@ extra:
       link: https://www.instagram.com/berkantsahn
   alternate:
   - name: tr - Türkçe
-    link: /tr/
+    link: /mkdocs-test/tr/
     lang: tr
   - name: en - English 
-    link: /en/
+    link: /mkdocs-test/en/
     lang: en
     
 extra_javascript:
