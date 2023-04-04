@@ -12,14 +12,14 @@ theme:
     primary: teal
     accent: amber
     toggle:
-      icon: material/lightbulb-outline
+      icon: material/lightbulb
       name: Karanlık moda geç
   - media: '(prefers-color-scheme: light)'
     scheme: slate
     primary: teal
     accent: amber
     toggle:
-      icon: material/lightbulb
+      icon: material/lightbulb-outline
       name: Aydınlık moda geç
   features:
     - search.suggest
