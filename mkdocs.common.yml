@@ -1,5 +1,5 @@
 repo_name: berkantsahn/mkdocs-test
-repo_url: https://github.com/berkantsahn/mkdocs-test/tr/
+repo_url: https://github.com/berkantsahn/mkdocs-test/
 
 theme:
   name: material
