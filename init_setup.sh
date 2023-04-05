@@ -1,5 +1,5 @@
 echo [$(date)]: "START"
-export _VERSION_=3.9
+export _VERSION_=3.11
 echo [$(date)]: "creating environment with python ${_VERSION_}"
 conda create --prefix ./env python=${_VERSION_} -y
 echo [$(date)]: "activate environment"
