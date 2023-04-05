@@ -41,10 +41,10 @@ extra:
       link: https://www.instagram.com/berkantsahn
   alternate:
     - name: tr - Türkçe
-      link: https://berkantsahn.github.io/mkdocs-test/tr/index-tr/
+      link: https://berkantsahn.github.io/mkdocs-test/tr/
       lang: tr
     - name: en - English 
-      link: https://berkantsahn.github.io/mkdocs-test/en/index-en/
+      link: https://berkantsahn.github.io/mkdocs-test/en/
       lang: en
 
 markdown_extensions:

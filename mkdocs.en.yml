@@ -28,10 +28,10 @@ theme:
     - search.highlight
   #  - navigation.indexes
   #  - navigation.sections
-    - navigation.tabs
-    - navigation.tabs.sticky
+  #  - navigation.tabs
+  #  - navigation.tabs.sticky
     - navigation.path
-    - navigation.top
+  #  - navigation.top
   #  - navigation.expand
     - content.code.copy
   icon:
@@ -51,10 +51,10 @@ extra:
       link: https://www.instagram.com/berkantsahn
   alternate:
     - name: tr - Türkçe
-      link: https://berkantsahn.github.io/mkdocs-test/tr/index-tr/
+      link: https://berkantsahn.github.io/mkdocs-test/tr/
       lang: tr
     - name: en - English 
-      link: https://berkantsahn.github.io/mkdocs-test/en/index-en/
+      link: https://berkantsahn.github.io/mkdocs-test/en/
       lang: en  
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6

@@ -23,6 +23,10 @@ jobs:
         with:
           entrypoint: mkdocs
           args: build --config-file=mkdocs.en.yml  
+
+      - name: Copy redirect index page
+        run: sudo cp ./index.html ./site
+        
       - uses: actions/setup-python@v4
         with:
           python-version: 3.11
