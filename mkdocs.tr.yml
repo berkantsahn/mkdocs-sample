@@ -39,6 +39,8 @@ theme:
 plugins:
   - search:
       lang: tr
+  - mkdocs-versioning:
+      version: 1.0.0
 extra:
   social:
     - icon: fontawesome/brands/github-alt
