@@ -1,5 +1,5 @@
-repo_name: berkantsahn/mkdocs-test
-repo_url: https://github.com/berkantsahn/mkdocs-test/
+repo_name: berkantsahn/mkdocs-sample
+repo_url: https://github.com/berkantsahn/mkdocs-sample/
 
 theme:
   name: material
@@ -41,10 +41,10 @@ extra:
       link: https://www.instagram.com/berkantsahn
   alternate:
     - name: tr - Türkçe
-      link: https://berkantsahn.github.io/mkdocs-test/tr/
+      link: https://berkantsahn.github.io/mkdocs-sample/tr/
       lang: tr
     - name: en - English 
-      link: https://berkantsahn.github.io/mkdocs-test/en/
+      link: https://berkantsahn.github.io/mkdocs-sample/en/
       lang: en
 
 markdown_extensions:

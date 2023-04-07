@@ -1,9 +1,9 @@
-site_name: MkDocs Test
+site_name: MkDocs Örnek
 site_author: Berkant Şahin
 docs_dir: 'docs/tr/'
 site_dir: 'site/tr/'
-repo_name: berkantsahn/mkdocs-test
-repo_url: https://github.com/berkantsahn/mkdocs-test/
+repo_name: berkantsahn/mkdocs-sample
+repo_url: https://github.com/berkantsahn/mkdocs-sample/
 theme:
   name: material
   direction: ltr
@@ -51,10 +51,10 @@ extra:
       link: https://www.instagram.com/berkantsahn
   alternate:
     - name: tr - Türkçe
-      link: https://berkantsahn.github.io/mkdocs-test/tr/
+      link: https://berkantsahn.github.io/mkdocs-sample/tr/
       lang: tr
     - name: en - English 
-      link: https://berkantsahn.github.io/mkdocs-test/en/
+      link: https://berkantsahn.github.io/mkdocs-sample/en/
       lang: en
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
