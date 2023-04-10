@@ -40,6 +40,8 @@ plugins:
   - search:
       lang: tr
 extra:
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/berkantsahn
