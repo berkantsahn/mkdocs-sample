@@ -41,7 +41,7 @@ plugins:
       lang: tr
 extra:
   version:
-    provider: stable
+    provider: mike
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/berkantsahn
